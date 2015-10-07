@@ -1,0 +1,136 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+@font-face{
+  font-family: "Nexa Light";
+  src: url('font/nexa/Nexa-Light.otf')
+    format('opentype');
+  
+  font-family: "Nexa Bold";
+  src: url('font/nexa/Nexa-Bold.otf')
+    format('opentype');
+}
+
+
+body {
+  font-family: "Nexa Light";
+  background-color: #D9CBBF;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 0.15em solid #333;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the ADD TO CART button */
+.button-add {
+  display: inline-block;
+  padding: .75em 1.5em;
+  color: #FFF;
+  background-color: #324359;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-add:hover, .button-add:focus {
+  background-color: #746A5F;
+}
+
+.intext-link{
+  color: #6581A9;
+}
+
+.intext-link:hover, .intext-link:focus{
+  color: #FFF;
+}
+
+.button-submit{
+  display: inline-block;
+  padding: .75em 1.5em;
+  color: #FFF;
+  background-color: #324359;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-submit:hover, .button-submit:focus{
+  background-color: #746A5F;
+}
+
+.input-text{
+  font-family: "Nexa Light";
+  color: #FFF;
+  background-color:#746A5F;
+  border: 1px solid #746A5F; 
+  padding: .5em;
+  -webkit-appearance: none;
+  box-shadow: none;
+  border-radius: none;
+}
+
+.text-heading{
+  font-family: "Nexa Bold";
+  color: #000;
+  font-size: 1.5em;
+}
+
+p{
+  font-size: 1em;
+}
+
+.navigation-menu{
+  font-family: "Nexa Bold";
+  color: #FFF;
+  background-color: #324359;
+}
+
+.navigation-menu ul{
+  padding: 2em;
+  margin: 0;
+}
+
+.navigation-menu ul li{
+  font-family: "Nexa Bold";
+  font-size: 1.5em;
+  display: inline;
+  padding: 2em;
+}
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+
+
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
